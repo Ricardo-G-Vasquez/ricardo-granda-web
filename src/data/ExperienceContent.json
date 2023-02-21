@@ -1,22 +1,46 @@
 {
   "experienceContent": [
     {
-      "year": "2018 - Present",
-      "position": " Web Developer",
-      "compnayName": "Envato",
-      "details": " Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit"
+      "year": "FEB 2022 - Present",
+      "position": "SENIOR REACT DEV",
+      "compnayName": "GFT GROUP - DBS BANK",
+      "details": "Bug fixing and Development of features of React Components into different MFE"
     },
     {
-      "year": "2013 - 2018",
-      "position": " UI/UX Designer",
-      "compnayName": "Themeforest",
-      "details": "Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt"
+      "year": "JULY 2019 - FEB 2022",
+      "position": "SENIOR REACT DEV",
+      "compnayName": "GREEN POWER MONITOR",
+      "details": "Development of React Libraries following Functional Programming and Inheritance (classes)"
     },
     {
-      "year": "2005 - 2013",
-      "position": "Consultant",
-      "compnayName": "Videohive",
-      "details": "Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt"
+      "year": "JULY 2017 - JULY 2019",
+      "position": "SENIOR WEB DEV",
+      "compnayName": "TAPPX",
+      "details": "In charge of the development of custom applications and software according to business model requirements within Tappx app developers community"
+    },
+    {
+      "year": "FEB 2016 - JULY 2017",
+      "position": "FULL STACK DEV",
+      "compnayName": "NÜK STUDIO",
+      "details": "Planning, research, and development of software solutions for mobile and web applications and contents."
+    },
+    {
+      "year": "DEC 2011 - JANUARY 2015",
+      "position": "FULL STACK DEV",
+      "compnayName": "ALFIL STUDIO",
+      "details": "Planning and development of web solutions for customers like Aries Printing Company or Pandora Essence Collection. Consultancy on online strategies, SEO, Social Media and online positioning."
+    },
+    {
+      "year": "SEPTEMBER 2010 - OCTOBER 2011",
+      "position": "WEB DEV - MARKETING ONLINE ANALYST",
+      "compnayName": "M&CSATCHI",
+      "details": "Creation and deploy of WordPress CMS Blogs. Data Analysis for SEO and SEM purposes"
+    },
+    {
+      "year": "SEPTEMBER 2008 - DECEMBER 2008",
+      "position": "INTERNSHIP - JOURNALIST & CONSULTANT",
+      "compnayName": "FOOD AND AGRICULTURE OF THE UNITED NATIONS",
+      "details": "Interviews with FAO Representatives, experts and Chief of departments, in English and Spanish."
     }
   ]
 }

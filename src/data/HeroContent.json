@@ -1,10 +1,10 @@
 {
   "heroContent": {
-    "heroImage": "/assets/img/hero/dark.jpg",
+    "heroImage": "/assets/img/hero/ricardo_granda_dev.jpg",
     "heroMobileImage": "heroImgMobile",
     "heroTitleName": "Ricardo Granda",
     "heroDesignation": "React Developer",
-    "heroDescriptions": "I'm a Spain based front‑end developer focused on \n crafting clean & user‑friendly experiences, I am passionate about building excellent software that improves the lives of those around me.",
+    "heroDescriptions": "I'm a Barcelona based front‑end developer focused focusing on the design of web applications and striving to provide simple solutions to complex problems.",
     "heroBtn": "more about me"
   }
 }
