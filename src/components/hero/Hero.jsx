@@ -4,18 +4,9 @@ import heroImgMobile from "../../../public/assets/img/hero/img-mobile.jpg";
 import cancelImg from "../../../public/assets/img/cancel.svg";
 import AboutMain from "../about";
 import Image from "next/image";
+import data from "../../data/HeroContent.json";
 
-const heroContent = {
-  heroImage: "/assets/img/hero/dark.jpg",
-  heroMobileImage: heroImgMobile,
-  heroTitleName: "steve milner",
-  heroDesignation: "web designer",
-  heroDescriptions: `I'm a Tunisian based web designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
-  heroBtn: "more about me",
-};
+const { heroContent } = data;
 
 const Hero = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,10 +24,10 @@ const Hero = () => {
         <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
           <div>
             <Image
-              src={heroContent.heroMobileImage}
+              src={heroImgMobile}
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
-              // style={{width:'100%',height:'100%'}}
+            // style={{width:'100%',height:'100%'}}
             />
             <h1 className="text-uppercase poppins-font">
               {"I'm"} {heroContent.heroTitleName}.
