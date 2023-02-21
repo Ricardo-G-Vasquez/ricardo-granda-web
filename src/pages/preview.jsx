@@ -22,7 +22,7 @@ const preview = () => {
 
   return (
     <>
-      <SEO pageTitle={"Preview"} />
+      <SEO pageTitle={"React Developer"} />
       <section className="banner text-center">
         <div className="content">
           <h1>Tunis</h1>
