@@ -26,8 +26,8 @@ const Hero = () => {
             <Image
               src={heroImgMobile}
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
-              alt="hero man"
-              style={{ width: '100%', height: '100%' }}
+              alt="Ricardo Granda"
+            // style={{ width: '100%', height: '100%' }}
             />
             <h1 className="text-uppercase poppins-font">
               {"I'm"} {heroContent.heroTitleName}.

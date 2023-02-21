@@ -25,7 +25,7 @@ const HomeDark = () => {
   }, []);
   return (
     <Wrapper>
-      <SEO pageTitle={"Home Dark"} />
+      <SEO pageTitle={"React Developer"} />
 
       <div className="yellow">
         <SwitchDark />
