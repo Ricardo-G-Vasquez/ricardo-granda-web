@@ -1,22 +1,40 @@
 {
   "educationContent": [
     {
+      "year": "2017 - present",
+      "degree": "SOFTWARE DEV COURSES",
+      "institute": "PLURALSIGHT",
+      "details": "Several online courses related to the following technologies: React, React Native, Javascript, Typescript and AWS"
+    },
+    {
       "year": "2015",
-      "degree": "ENGINEERING DEGREE",
-      "institute": "OXFORD UNIVERSITY",
-      "details": "Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit"
+      "degree": "MEAN Stack Developer",
+      "institute": "TRAZOS SCHOOL - MADRID",
+      "details": "Development of Apps for Mobile and Tablets. Learning of the following languages: node.js, angular.js and phonegap tool."
     },
     {
-      "year": "2012",
-      "degree": "MASTER DEGREE",
-      "institute": "KIEV UNIVERSITY",
-      "details": "Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt"
+      "year": "2013 - 2014",
+      "degree": "ASSOCIATE'S DEGREE - COMPUTER SCIENCE",
+      "institute": "HarvardX",
+      "details": "Course on concepts of programming, software development and computer science, as well as languages as C, Php, HTML, jquery, JavaScript, CSS, database connection (MySQL)."
     },
     {
-      "year": "2009",
+      "year": "2012 - 2013",
+      "degree": "ASSOCIATE'S DEGREE ",
+      "institute": "TEAM TREE HOUSE - Web Dev",
+      "details": "Online courses on Jquery, Hmtl5, CSS3, Javascript, Jquery, PHP, Wordpress and Twitter Bootstrap."
+    },
+    {
+      "year": "2008 - 2008",
+      "degree": "POSTGRADUATE DEGREE ",
+      "institute": "COMPLUTENSE UNIVERSITY",
+      "details": "International Mass Media and the Global South"
+    },
+    {
+      "year": "1997 - 2004",
       "degree": "BACHELOR DEGREE ",
-      "institute": "TUNIS HIGH SCHOOL",
-      "details": "Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt"
+      "institute": "UNIVERSIDAD CATÓLICA DEL PERÚ",
+      "details": "Communication and Journalism"
     }
   ]
 }
