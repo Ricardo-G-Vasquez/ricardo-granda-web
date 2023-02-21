@@ -1,0 +1,44 @@
+{
+  "personalInfoContent": [
+    {
+      "meta": "first name",
+      "metaInfo": "Ricardo",
+      "hasColor": ""
+    },
+    {
+      "meta": "last name",
+      "metaInfo": "Granda",
+      "hasColor": ""
+    },
+    {
+      "meta": "Contractor",
+      "metaInfo": "Available",
+      "hasColor": "green"
+    },
+    {
+      "meta": "Address",
+      "metaInfo": "Barcelona",
+      "hasColor": ""
+    },
+    {
+      "meta": "phone",
+      "metaInfo": "+34652645476",
+      "hasColor": ""
+    },
+    {
+      "meta": "Email",
+      "metaInfo": "info@ricardogranda.com",
+      "hasColor": ""
+    },
+    {
+      "meta": "Skype",
+      "metaInfo": " ricardo.granda.vasquez",
+      "hasColor": ""
+    },
+    {
+      "meta": "languages",
+      "metaInfo": "English (working profficient), \n Spanish (Native Language)",
+      "hasColor": ""
+    }
+  ]
+}
