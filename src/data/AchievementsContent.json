@@ -1,24 +1,19 @@
 {
   "achievementsContent": [
     {
-      "title": "12",
+      "title": "10",
       "subTitle1": "years of",
-      "subTitle2": "experience"
+      "subTitle2": "Software Development"
     },
     {
-      "title": "97",
-      "subTitle1": "completed",
-      "subTitle2": "projects"
+      "title": "5",
+      "subTitle1": "years as",
+      "subTitle2": "Front End Developer"
     },
     {
-      "title": "81",
-      "subTitle1": "Happy",
-      "subTitle2": "customers"
-    },
-    {
-      "title": "53",
-      "subTitle1": "awards",
-      "subTitle2": "won"
+      "title": "5",
+      "subTitle1": "years of",
+      "subTitle2": "React & Javascript Development"
     }
   ]
 }
