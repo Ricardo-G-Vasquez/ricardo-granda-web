@@ -73,7 +73,7 @@ const HomeDark = () => {
             {/* About Content Ends */}
 
             {/* Portfolio Content Starts */}
-            <TabPanel className="portfolio professional">
+            {/* <TabPanel className="portfolio professional">
               <div
                 className="title-section text-start text-sm-center"
                 data-aos="fade-up"
@@ -84,9 +84,8 @@ const HomeDark = () => {
                 </h1>
                 <span className="title-bg">works</span>
               </div>
-              {/* End title */}
               <Portfolio />
-            </TabPanel>
+            </TabPanel> */}
             {/* Portfolio Content Ends */}
 
             {/* Contact Content Starts */}
