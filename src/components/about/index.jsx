@@ -4,11 +4,11 @@ import Education from "./Education";
 import Experience from "./Experience";
 import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
-import cv from "../../../public/assets/img/cv.webp";
 import heroImgMobile from "../../../public/assets/img/hero/img-mobile.jpg";
 import Image from "next/image";
 
 const index = () => {
+  const cv = "assets/pdf/resume_ricardo_granda_vasquez_2022.pdf";
   return (
     <section className="main-content ">
       <div className="container">
@@ -39,7 +39,7 @@ const index = () => {
               {/* End personal info */}
 
               <div className="col-12 mt-1">
-                <a className="button" href={cv} download>
+                <a className="button" href={cv} download target="_blank">
                   <span className="button-text">Download CV</span>
                   <span className="button-icon fa fa-download"></span>
                 </a>
