@@ -5,7 +5,7 @@ const SocialShare = [
     iconName: "fa fa-github",
     link: "https://www.facebook.com/",
   },
-  { iconName: "fa fa-linkedin", link: "https://twitter.com/" },
+  { iconName: "fa fa-linkedin", link: "https://www.linkedin.com/in/ricardogranda/" },
   {
     iconName: "fa fa-youtube",
     link: "https://www.youtube.com/",
