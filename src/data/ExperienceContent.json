@@ -4,43 +4,88 @@
       "year": "FEB 2022 - Present",
       "position": "SENIOR REACT DEV",
       "compnayName": "GFT GROUP - DBS BANK",
-      "details": "Bug fixing and Development of features of React Components into different MFE"
+      "companyDescription": "DBS is the largest east side bank, located in Singapur. We were doing a new application in React Ecosystem in order to replace this current APP https://internet-banking.dbs.com.sg/IB/Welcome, for the final customers. It allows final users to access their bank account, make transactions, update their information number, check their records, and all that a Bank APP allows to do. ",
+      "tech_stack": "React, Typescript, Redux, Redux Saga, Redux Thunk, Unit testing, Confluence, Git, Jenkins, Agile, Kanban",
+      "details": [
+        "Team of five developers, including me as one of the seniors",
+        "Worked with teams all around Asia (more than 10 teams distributed in Singapore, India, China, and Spain)",
+        "Bug fixing.",
+        "Refactor legacy code. \n4. Development of new features."
+      ],
+      "main_achievements": [
+        {
+          "title": "Refactor the Modal Logics for the entire application",
+          "problem_description": "They have more than 10 modals that should be displayed according to different scenarios coming from three different APIs ( several Endpoints). The way they have it implemented caused a lot of bugs because conditions were not clearly defined and some modals overlap others, more beyond the code, that was difficult to maintain due to complex \"if else\" conditions (one file with more than two thousand lines of code).",
+          "solution": "I was in charge of:\n1. Recollect and organize all the information concerning the modals logic. They want to implement more logic but it was going to become unstable and completely unmaintainable. This phase included meetings with different Tech Leads and API developers from Singapur, China, the Philippines, and India. \n2. Develop a new logic based on React Hook's implementations and separate concerns into the following: \nBusiness Logic of each of the modals. \nRendering Logic\nCustom React Hooks\nMake it scalable and modular ( diagram it for further implementations ). \n3. Write and organize the US and respective tasks for the development. \n4. Manage a team of three people (four with me included) for make the refactor and implementation."
+        }
+      ]
     },
     {
       "year": "JULY 2019 - FEB 2022",
       "position": "SENIOR REACT DEV",
       "compnayName": "GREEN POWER MONITOR",
-      "details": "Development of React Libraries following Functional Programming and Inheritance (classes)"
+      "companyDescription": "Green Power Monitor is part of the DNVGL group which is focused on renewable energy monitoring. I was part of three teams that developed a couple of libraries in React and Typescript: the widgets library and the small components library based on Ant-Design. We were replacing a Clojure script application progressively with React Widgets. Also, we customized features from different libraries like HighCharts and the abovementioned Ant-Design.   ",
+      "details": [
+        "Created Front - End Widgets, separating concerns in business logic, render logic, and interfaces (typescript).",
+        "Bug fixing.",
+        "Verification of the correct implementation of React widgets into Clojure environment",
+        "Scrum Master",
+        "Hosting and organizing the React Chapter, a weekly meeting for discussing practices on React, challenges, and better ways to display our code."
+      ],
+      "main_achievements": [
+        {
+          "title": "Introducing Typescript into the development",
+          "problem_description": "When establising the contracts for the libraries, we were hesitating if working or not in Typescript because none of us knew it. ",
+          "solution": "I was in charge of researching the option, prepare documentation and expose advantages and disadvantages of using it."
+        },
+        {
+          "title": "Re-thinking Highcharts library",
+          "problem_description": "There was a requirement from one of our clients to unify in just one zero point the y-axis in highcharts graphics library. The highcharts team didn't have that feature implemented and, according to Forums, they were not going to do it. ",
+          "solution": "with a colleague, first, we created an algorithm for giving to highcharts API the data organized in a specific JSON that will allow unifying the zero point into the y-axis. Secondly, we organize the respective US and tasks in order to implement them in the Clojure environment and the React environment. And last but not least, we implemented the algorithm using the API tools that Highcharts provides and \"bypass\" its logic to implement ours."
+        }
+      ]
     },
     {
       "year": "JULY 2017 - JULY 2019",
       "position": "SENIOR WEB DEV",
       "compnayName": "TAPPX",
-      "details": "In charge of the development of custom applications and software according to business model requirements within Tappx app developers community"
+      "companyDescription": "Tappx is a company focused on displaying advertisements in mobile apps. ",
+      "details": [
+        "Development of internal tools for measuring data and administrative issues.",
+        "Renewal of their main website.",
+        "Bug fixing",
+        "Development of BE and FE apps from scratch",
+        "Work with Tableau tool for data representation"
+      ],
+      "main_achievements": [
+        {
+          "title": "Introducing React into the developments",
+          "problem_description": "Vue.js didn't convince us enough for keeping doing our developments, but we used it just because it came along with the Laravel Stack",
+          "solution": "I research and propose React as a FE library for our new developments. Replace one of the old FE (made in JQuery and Vanilla Javascript) into React Classes"
+        },
+        {
+          "title": "Introducing Tableau into the company",
+          "problem_description": "The company needed a tool for data monitorization and measurement, more beyond the applications we had developed.",
+          "solution": "Researching and proposing Tableau as a tool for monitorization and measurement. Once approved, I was in charge of implementing it in our servers"
+        }
+      ]
     },
     {
       "year": "FEB 2016 - JULY 2017",
       "position": "FULL STACK DEV",
       "compnayName": "NÜK STUDIO",
-      "details": "Planning, research, and development of software solutions for mobile and web applications and contents."
+      "companyDescription": "Nük Studios is a design company focused on design campaigns, online marketing, and web and mobile development. Its main focus was to launch marketing and mobile campaigns adapted to customer requirements. ",
+      "details": [
+        "Planning, research, and development of software solutions for mobile and web applications and contents."
+      ]
     },
     {
       "year": "DEC 2011 - JANUARY 2015",
       "position": "FULL STACK DEV",
       "compnayName": "ALFIL STUDIO",
-      "details": "Planning and development of web solutions for customers like Aries Printing Company or Pandora Essence Collection. Consultancy on online strategies, SEO, Social Media and online positioning."
-    },
-    {
-      "year": "SEPTEMBER 2010 - OCTOBER 2011",
-      "position": "WEB DEV - MARKETING ONLINE ANALYST",
-      "compnayName": "M&CSATCHI",
-      "details": "Creation and deploy of WordPress CMS Blogs. Data Analysis for SEO and SEM purposes"
-    },
-    {
-      "year": "SEPTEMBER 2008 - DECEMBER 2008",
-      "position": "INTERNSHIP - JOURNALIST & CONSULTANT",
-      "compnayName": "FOOD AND AGRICULTURE OF THE UNITED NATIONS",
-      "details": "Interviews with FAO Representatives, experts and Chief of departments, in English and Spanish."
+      "details": [
+        "Planning and development of web solutions for customers like Aries Printing Company or Pandora Essence Collection. Consultancy on online strategies, SEO, Social Media and online positioning."
+      ]
     }
   ]
 }

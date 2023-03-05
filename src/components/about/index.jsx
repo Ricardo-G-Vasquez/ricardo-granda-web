@@ -8,7 +8,7 @@ import heroImgMobile from "../../../public/assets/img/hero/img-mobile.jpg";
 import Image from "next/image";
 
 const index = () => {
-  const cv = "assets/pdf/resume_ricardo_granda_vasquez_2022.pdf";
+  const cv = "assets/pdf/RGV_RESUME_2023.pdf";
   return (
     <section className="main-content ">
       <div className="container">

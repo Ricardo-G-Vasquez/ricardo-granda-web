@@ -7,13 +7,8 @@ const SwitchDark = () => {
   const [isDark, setIsDark] = useState(false);
 
   const handleLabelClick = () => {
-    if (isDark) {
-      handleSwitchValue(true)
-      setIsDark(false);
-    } else {
-      handleSwitchValue(false)
-      setIsDark(true);
-    }
+    handleSwitchValue(isDark)
+    setIsDark(!isDark);
   };
 
   return (
