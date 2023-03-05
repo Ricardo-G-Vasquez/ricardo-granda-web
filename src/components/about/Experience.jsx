@@ -16,7 +16,7 @@ const Experience = () => {
             {val.position}
             <span className="place open-sans-font">{val.compnayName}</span>
           </h5>
-          <ul className="open-sans-font no-style">{val.details.map((val) => <li>{val}</li>)}</ul>
+          <ul className="open-sans-font no-style">{val.details.map((val, key) => <li key={`no-style-li-${key}`}>{val}</li>)}</ul>
         </li>
       ))}
     </ul>
