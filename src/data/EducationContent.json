@@ -19,6 +19,24 @@
       "details": "Course on concepts of programming, software development and computer science, as well as languages as C, Php, HTML, jquery, JavaScript, CSS, database connection (MySQL)."
     },
     {
+      "institute": "London Education Center - Madrid",
+      "degree": "OPERATION SYSTEMS AND APPLICATIONS",
+      "details": "Operation Systems Knowledge and Desktop Apps",
+      "year": "2014"
+    },
+    {
+      "institute": "London Education Center",
+      "degree": "PROGRAMMING OF RELATIONAL DATABASE ",
+      "details": "Studies on MySQL Database. Organization of data, operations into mysql and querying DB ",
+      "year": "2014"
+    },
+    {
+      "institute": "London Education Center",
+      "degree": "STRUCTURED PROGRAMMING LANGUAGES CERTIFICATES",
+      "details": "Development of structured programming languages. OOP and Solid Principles",
+      "year": "2014"
+    },
+    {
       "year": "2012 - 2013",
       "degree": "ASSOCIATE'S DEGREE ",
       "institute": "TEAM TREE HOUSE - Web Dev",
