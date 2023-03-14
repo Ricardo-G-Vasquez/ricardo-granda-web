@@ -1,16 +1,16 @@
 import React from 'react';
 
-const Company = ({ companyName, companyDescription }) => {
+const TechStack = ({ title = "Tech Stack", techStack }) => {
   return (
     <>
       <h5>
-        <span className="place open-sans-font">{companyName}</span>
+        <span className="place open-sans-font main-color text-uppercase">{title}</span>
       </h5>
       <p>
-        {companyDescription}
+        {techStack}
       </p>
     </>
   )
 };
 
-export default Company; 
+export default TechStack; 

@@ -48,7 +48,7 @@ html {
   height: 100%;
 }
 :root {
-  --main-primary-color: #255357;
+  --main-primary-color: #ffb400;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -162,7 +162,7 @@ body.light .about .resume-box p {
 }
 
 body.light .about .resume-box .place:before {
-  background-color: #666;
+  background-color: #ffb400;
 }
 
 body.light .about .resume-box li:after {
@@ -842,7 +842,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
   content: "";
   width: 10px;
   height: 2px;
-  background-color: #fff;
+  background-color: #ffb400;
   left: 7px;
   top: 9px;
   opacity: 0.8;

@@ -1,7 +1,9 @@
 import React from "react";
-import { propTypes } from "react-animated-cursor";
 import data from "../../../data/ExperienceContent.json";
 import Company from "./Company";
+import MainAchievements from "./MainAchievements";
+import MainTasks from "./MainTasks";
+import TechStack from "./TechStack";
 
 const { experienceContent } = data;
 
@@ -18,7 +20,9 @@ const Experience = () => {
             {val.position}
           </h5>
           <Company companyName={val.compnayName} companyDescription={val.companyDescription} />
-          <ul className="open-sans-font no-style">{val.details.map((val, key) => <li key={`no-style-li-${key}`}>{val}</li>)}</ul>
+          {val.tech_stack && <TechStack techStack={val.tech_stack} />}
+          <MainTasks mainTasks={val.details} />
+          {val.main_achievements && <MainAchievements mainAchievements={val.main_achievements} />}
         </li>
       ))}
     </ul>
