@@ -4,7 +4,7 @@ const Company = ({ companyName, companyDescription }) => {
   return (
     <>
       <h5>
-        <span className="place open-sans-font">{companyName}</span>
+        <span className="place open-sans-font main-color text-uppercase">{companyName}</span>
       </h5>
       <p>
         {companyDescription}
