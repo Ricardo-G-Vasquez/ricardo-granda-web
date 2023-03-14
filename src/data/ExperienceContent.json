@@ -24,6 +24,7 @@
       "year": "JULY 2019 - FEB 2022",
       "position": "SENIOR REACT DEV",
       "compnayName": "GREEN POWER MONITOR",
+      "tech_stack": "React, Typescript,Jest, Unit testing, Confluence, Git, Azure Devops Tools, Agile, Kanban",
       "companyDescription": "Green Power Monitor is part of the DNVGL group which is focused on renewable energy monitoring. I was part of three teams that developed a couple of libraries in React and Typescript: the widgets library and the small components library based on Ant-Design. We were replacing a Clojure script application progressively with React Widgets. Also, we customized features from different libraries like HighCharts and the abovementioned Ant-Design.   ",
       "details": [
         "Created Front - End Widgets, separating concerns in business logic, render logic, and interfaces (typescript).",
