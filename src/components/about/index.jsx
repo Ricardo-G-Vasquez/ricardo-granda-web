@@ -74,7 +74,7 @@ const index = () => {
 
         {/* Experience & Education Starts */}
         <div className="row">
-          <div className="col-lg-8 m-15px-tb offset-md-2">
+          <div className="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-12">
             <h3 className="text-uppercase pb-5 mb-0 text-start text-sm-center custom-title ft-wt-600">
               Experience
             </h3>
@@ -82,7 +82,7 @@ const index = () => {
               <Experience />
             </div>
           </div>
-          <div className="col-lg-8 offset-md-2 m-15px-tb">
+          <div className="col-xl-8 offset-xl-2 offset-lg-2 col-12">
             <h3 className="text-uppercase pb-5 mb-0 text-start text-sm-center custom-title ft-wt-600">
               Education
             </h3>
