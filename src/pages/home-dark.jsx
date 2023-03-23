@@ -18,6 +18,8 @@ const menuItem = [
   { icon: "fa-comments", menuName: "Blog", href: "https://medium.com/@ricardogranda", isBlankTarget: true },
 ];
 
+const isBlankTargetClass = "is-blank-target";
+
 const HomeDark = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   useEffect(() => {
@@ -25,14 +27,9 @@ const HomeDark = () => {
   }, []);
   const customSelect = ((index, last, event) => {
     const { target: { className } } = event;
-    console.log(event);
-    if (!className.includes('is-blank-target')) {
-      console.log("here");
-      setSelectedIndex(index);
-    } else {
-      console.log(className);
-      setSelectedIndex(last);
-    }
+
+    const selectedIdx = !className.includes(isBlankTargetClass) ? index : last;
+    setSelectedIndex(selectedIdx);
   });
   return (
     <Wrapper>
@@ -46,7 +43,7 @@ const HomeDark = () => {
             <TabList className=" icon-menu  revealator-slideup revealator-once revealator-delay1">
               {menuItem.map((item, i) => (
                 <CustomLink href={item.href}>
-                  <Tab className={`icon-box ${item.isBlankTarget && "is-blank-target"}`} key={i}>
+                  <Tab className={`icon-box ${item.isBlankTarget && isBlankTargetClass}`} key={i}>
                     <i className={`fa ${item.icon}`}></i>
                     <h2>{item.menuName}</h2>
                   </Tab>
@@ -130,6 +127,7 @@ const HomeDark = () => {
               {/* End .container */}
             </TabPanel>
             {/* Contact Content Ends */}
+            <TabPanel></TabPanel>
           </div>
         </Tabs>
       </div>
