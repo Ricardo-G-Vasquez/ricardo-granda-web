@@ -41,7 +41,7 @@ const HomeDark = () => {
           <div className="header">
             <TabList className=" icon-menu  revealator-slideup revealator-once revealator-delay1">
               {menuItem.map((item, i) => (
-                <CustomLink href={item.href}>
+                <CustomLink href={item.href} key={i}>
                   <Tab className={`icon-box ${item.isBlankTarget && isBlankTargetClass}`} key={i}>
                     <i className={`fa ${item.icon}`}></i>
                     <h2>{item.menuName}</h2>
