@@ -13,13 +13,13 @@ const MainAchievements = ({ title = "Main Achievements", mainAchievements }) => 
             return (
               <>
                 <li key={`achievement-${index}`}>
-                  <h6>{title}</h6>
+                  <h5>{title}</h5>
                   <section>
-                    <h7>The Problem</h7>
+                    <h6>The Problem</h6>
                     <p>{problem}</p>
                   </section>
                   <section>
-                    <h7>Solution</h7>
+                    <h6>Solution</h6>
                     <p>{solution}</p>
                   </section>
                 </li>

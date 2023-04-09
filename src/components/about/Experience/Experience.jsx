@@ -27,7 +27,7 @@ const Experience = () => {
             {companyDescription && <Company companyName={compnayName} companyDescription={companyDescription} />}
             {tech_stack && <TechStack techStack={tech_stack} />}
             <MainTasks mainTasks={details} />
-            {main_achievements && <MainAchievements mainAchievements={main_achievements} />}
+            {main_achievements?.length && <MainAchievements mainAchievements={main_achievements} />}
           </li>
         )
       }

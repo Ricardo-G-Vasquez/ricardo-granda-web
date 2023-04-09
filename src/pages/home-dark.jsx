@@ -1,28 +1,35 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import Hero from "../components/hero/Hero";
 import AboutMain from "../components/about";
 import Wrapper from "../layout/wrapper";
 import SEO from "../components/Seo";
-import Portfolio from "../components/portfolio/Portfolio";
 import Address from "../components/Address";
 import Social from "../components/Social";
 import Contact from "../components/Contact";
-import Blog from "../components/blog/Blog";
 import SwitchDark from "../components/switch/SwitchDark";
+import CustomLink from "../components/CustomLink";
 
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
   { icon: "fa-user", menuName: "About" },
-  // { icon: "fa-briefcase", menuName: "Portfolio" },
   { icon: "fa-envelope-open", menuName: "Contact" },
-  // { icon: "fa-comments", menuName: "Blog" },
+  { icon: "fa-comments", menuName: "Blog", href: "https://medium.com/@ricardogranda", isBlankTarget: true },
 ];
 
+const isBlankTargetClass = "is-blank-target";
+
 const HomeDark = () => {
+  const [selectedIndex, setSelectedIndex] = useState(0);
   useEffect(() => {
     document.querySelector("body").classList.remove("rtl");
   }, []);
+  const customSelect = ((index, last, event) => {
+    const { target: { className } } = event;
+
+    const selectedIdx = !className.includes(isBlankTargetClass) ? index : last;
+    setSelectedIndex(selectedIdx);
+  });
   return (
     <Wrapper>
       <SEO pageTitle={"React Developer"} />
@@ -30,14 +37,16 @@ const HomeDark = () => {
       <div className="yellow">
         <SwitchDark />
         {/* End Switcher */}
-        <Tabs>
+        <Tabs selectedIndex={selectedIndex} onSelect={customSelect}>
           <div className="header">
             <TabList className=" icon-menu  revealator-slideup revealator-once revealator-delay1">
               {menuItem.map((item, i) => (
-                <Tab className="icon-box" key={i}>
-                  <i className={`fa ${item.icon}`}></i>
-                  <h2>{item.menuName}</h2>
-                </Tab>
+                <CustomLink href={item.href} key={i}>
+                  <Tab className={`icon-box ${item.isBlankTarget && isBlankTargetClass}`} key={i}>
+                    <i className={`fa ${item.icon}`}></i>
+                    <h2>{item.menuName}</h2>
+                  </Tab>
+                </CustomLink>
               ))}
             </TabList>
           </div>
@@ -71,23 +80,6 @@ const HomeDark = () => {
               </div>
             </TabPanel>
             {/* About Content Ends */}
-
-            {/* Portfolio Content Starts */}
-            {/* <TabPanel className="portfolio professional">
-              <div
-                className="title-section text-start text-sm-center"
-                data-aos="fade-up"
-                data-aos-duration="1200"
-              >
-                <h1>
-                  my <span>portfolio</span>
-                </h1>
-                <span className="title-bg">works</span>
-              </div>
-              <Portfolio />
-            </TabPanel> */}
-            {/* Portfolio Content Ends */}
-
             {/* Contact Content Starts */}
             <TabPanel className="contact">
               <div
@@ -134,32 +126,7 @@ const HomeDark = () => {
               {/* End .container */}
             </TabPanel>
             {/* Contact Content Ends */}
-
-            {/* Blog Content Starts */}
-            {/* <TabPanel className="blog">
-              <div
-                className="title-section text-start text-sm-center "
-                data-aos="fade-up"
-                data-aos-duration="1200"
-              >
-                <h1>
-                  my <span>blog</span>
-                </h1>
-                <span className="title-bg">posts</span>
-              </div>
-              <div
-                className="container"
-                data-aos="fade-up"
-                data-aos-duration="1200"
-              >
-                {/*  Articles Starts  
-                <div className="row pb-50">
-                  <Blog />
-                </div>
-                {/* Articles Ends 
-              </div>
-            </TabPanel> */}
-            {/* Blog Content Ends */}
+            <TabPanel></TabPanel>
           </div>
         </Tabs>
       </div>
