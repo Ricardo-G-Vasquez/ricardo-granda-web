@@ -26,6 +26,7 @@
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
+    "@types/react": "18.0.34",
     "cz-conventional-changelog": "^3.3.0"
   },
   "config": {
