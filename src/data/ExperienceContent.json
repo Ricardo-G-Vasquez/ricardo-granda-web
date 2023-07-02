@@ -14,13 +14,6 @@
         "Enhanced website navigation with clear user experience (UX) mapping.",
         "Facilitated code reviews and pair programming sessions to ensure production of high quality code.",
         "Collaborated with web designers to align with intended visual design."
-      ],
-      "main_achievements": [
-        {
-          "title": "Development of customized tool for online voting",
-          "problem_description": "UX optimization for oline voting",
-          "solution": "Working with UX department, we improve the user experience of the design and developed a React SPA"
-        }
       ]
     },
     {
@@ -39,13 +32,6 @@
         "Trained teams to develop skills using React library and hooks.",
         "Optimised frontend performance through clean coding practices.",
         "Facilitated code reviews and pair programming sessions to ensure production of high quality code."
-      ],
-      "main_achievements": [
-        {
-          "title": "Code quality review and solution design and implementation",
-          "problem_description": "The authentication process code did not align with the business logic and was challenging to maintain.",
-          "solution": "I was in charge of documenting the current state of the code, design a solution according to the business logic and implemented it leading a team of three people."
-        }
       ]
     },
     {
@@ -63,13 +49,6 @@
         "Verified and resolved bug reports and issues.",
         "Developed algorithms and flowcharts to create new software and systems.",
         "Facilitated code reviews and pair programming sessions to foster the creation of high-quality code."
-      ],
-      "main_achievements": [
-        {
-          "title": "Customizing Highcharts library",
-          "problem_description": "Highcharts didn't provide a solution required for customer",
-          "solution": "Design a solution for 'bypassing' Highcharts algorithm calculation. Implement our own solution trough Highcharts api. Documenting."
-        }
       ]
     },
     {
@@ -85,13 +64,6 @@
         "Developed websites with HTML, CSS, PHP and JavaScript skills.",
         "Collaborated with web designers to align with intended visual design.",
         "Developed and tested REST APIs, ensuring effective response to wide variety of requests."
-      ],
-      "main_achievements": [
-        {
-          "title": "Planning and development of a custom APP",
-          "problem_description": "Planification and development of custom APP.",
-          "solution": "Planning and development of custom APP, Back End and Front End, for measuring requests provided by Kafka."
-        }
       ]
     },
     {
